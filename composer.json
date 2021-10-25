@@ -1,0 +1,25 @@
+{
+  "name": "dixydo/coding-standard",
+  "description": "Dixydo Coding Standard for PHP_CodeSniffer",
+  "license": "proprietary",
+  "type": "phpcodesniffer-standard",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": "7.3.*||8.*",
+    "slevomat/coding-standard": "~7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.5.20|8.5.5|9.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dixydo\\": "Dixydo"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dixydo\\": "tests"
+    }
+  }
+}
